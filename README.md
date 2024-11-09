@@ -1,64 +1,48 @@
 # Requirements and Design Documentation
 
----
+## Infrastructure Architecture Design
 
-## 1. **Introduction**
-- **Project Overview**
-- **Audience**
-- **Project Context**
+- **GitHub**
+- **App Service for containers**
+- **App Service Plan**
+- **PostgreSQL database**
+- **Static website**
+- **Azure Container Registry**
+- **Key Vault**
+- **Log Analytics Workspace**
+- **Application Insights**
+- **_(TO DO: Any other service to be used (Has to be coordinated with the rest of the team))_**
 
----
+## Environment Design
 
-## 2. **Architecture Overview**
-- **High-Level Architecture Diagram**
-- **Component Descriptions**
-- **Service Details**
+- **Which environments do we need for our workloads?**
+  - And what configuration will our Azure services have for each environment?
+- with the infra dev and the full stack dev
 
----
+## Well-Architected Framework
 
-## 3. **Environment Design**
-- **Environment Overview**
-- **Development Environment**
-- **UAT Environment**
-- **Production Environment**
-- **Environment Diagrams**
+![1731181133359](image/README/1731181133359.png)
 
----
-
-## 4. **Well-Architected Framework**
 - **Reliability**
+  - with site reliability engineer
 - **Security**
+  - with cybersec engineer
 - **Cost Optimization**
+  - with infra dev
 - **Operational Excellence**
+  - with full stack dev
 - **Performance Efficiency**
+  - with infra dev
 
----
+## Release Strategy
 
-## 5. **Security and Compliance**
-- **IAM and Access Control**
-- **Data Encryption**
-- **Compliance Frameworks**
+## CI/CD Pipeline and Release Strategy
 
----
+## Use Cases and Sequential Model Diagrams
+Must include for each use case
 
-## 6. **CI/CD Pipeline and Release Strategy**
-- **Pipeline Design Diagram**
-- **Development to Production Workflow**
-- **Deployment Automation**
-- **Rollback and Release Strategy**
+## Entity Relationship Diagram for the Database
 
----
+## 12 Factor App Design
 
-## 7. **Monitoring and Incident Response**
-- **Monitoring Strategy**
-- **SLAs, SLOs, and SLIs**
-- **Incident Response Plan**
-
----
-
-## 8. **User Stories and Requirements Traceability**
-- **Key User Stories**
-- **Traceability Matrix**
-
----
-
+## Documented User Stories
