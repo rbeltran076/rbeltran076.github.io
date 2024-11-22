@@ -51,7 +51,6 @@
 ## Release Strategy
 
 ## CI/CD Pipeline and Release Strategy
-Makenna's step 3... coming soon
 
 ## Use Cases and Sequential Model Diagrams
 Must include for each use case
