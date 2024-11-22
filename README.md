@@ -25,22 +25,22 @@
 
 - **Reliability**
   - with site reliability engineer
-  • SLI 1 - Account Availability: Ensure 95% of account access requests are successful.
-	•	SLI 2 - Time to Access: Ensure 85% of page requests are loaded within 500ms.
-	•	SLI 3 - Transaction Processing Time: Ensure 99% of transactions are completed within 2 seconds.
+  - SLI 1: Account Availability: Ensure 95% of account access requests are successful.
+  - SLI 2:Time to Access: Ensure 85% of page requests are loaded within 500ms.
+  - SLI 3:Transaction Processing Time: Ensure 99% of transactions are completed within 2 seconds.
 - **Security**
   - with cybersec engineer
-  •	SLI 4 - Login Success Rate: Ensure 99.9% of login attempts are successful without errors due to system issues.
-	•	SLI 5 - Fund Transfer Accuracy: Ensure 99.99% of fund transfers are accurate and error-free.
+  - SLI 4: Login Success Rate: Ensure 99.9% of login attempts are successful without errors due to system issues.
+  - SLI 5: Fund Transfer Accuracy: Ensure 99.99% of fund transfers are accurate and error-free.
 - **Cost Optimization**
   - with infra dev
 - **Operational Excellence**
   - with full stack dev
-  •	Collaborate to create Azure Dashboards for SLO compliance tracking and holistic observability.
+  - Collaborate to create Azure Dashboards for SLO compliance tracking and holistic observability.
 - **Performance Efficiency**
   - with infra dev
-  •	Conduct load testing for SLI 2 - Page Load Time and SLI 3 - Transaction Processing Time.
-	•	Optimize scalability of infrastructure to handle peak loads while maintaining performance thresholds.
+  - Conduct load testing for SLI 2: Page Load Time and SLI 3 - Transaction Processing Time.
+  - Optimize scalability of infrastructure to handle peak loads while maintaining performance thresholds.
 
 ## Release Strategy
 
