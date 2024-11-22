@@ -33,18 +33,25 @@
   - SLI 4: Login Success Rate: Ensure 99.9% of login attempts are successful without errors due to system issues.
   - SLI 5: Fund Transfer Accuracy: Ensure 99.99% of fund transfers are accurate and error-free.
 - **Cost Optimization**
-  - with infra dev
+  - SKU tier optimization: we will set the SKU to 'free' for the dev enviornment to reduce cost in this low traffic environment. The UAT and Production environment SKUs will be set to 'basic', which also are more cost-effective.
+  - CDN Configuration (static site): enabled in the production environment to improve performance and reduce bandwidth costs, which reduces latency for global users, and decreases data transfer costs through caching.
+  - CostCenter tag (static site): this will be enabled to provide cost tracking.
+  - ... add more based on other bicep files created
 - **Operational Excellence**
   - with full stack dev
   - Collaborate to create Azure Dashboards for SLO compliance tracking and holistic observability.
 - **Performance Efficiency**
-  - with infra dev
+  - CDN (static site): enabled in the production environment to deliver static content efficiently to users, reducing latency and improving page load times for users.
+  - Private endpoints (static site and database): ensures secure, low latency communication between resources
+  - Application insights monitoring: Integrated for all environments to monitor application performance metrics and identify bottlenecks, allowing for proactive optimization.
+  - ... to be continued
   - Conduct load testing for SLI 2: Page Load Time and SLI 3: Transaction Processing Time.
   - Optimize scalability of infrastructure to handle peak loads while maintaining performance thresholds.
 
 ## Release Strategy
 
 ## CI/CD Pipeline and Release Strategy
+Makenna's step 3... coming soon
 
 ## Use Cases and Sequential Model Diagrams
 Must include for each use case
