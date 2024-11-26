@@ -105,10 +105,9 @@
 | OE:12  | Implement a deployment failure mitigation strategy that addresses unexpected mid-rollout issues with rapid recovery. |                |
 
 - **Performance Efficiency**
-  - CDN (static site): enabled in the production environment to deliver static content efficiently to users, reducing latency and improving page load times for users.
-  - Private endpoints (static site and database): ensures secure, low latency communication between resources
+  - Parameterized Deployments with Bicep: Adapts deployments to specific environment needs, without requiring manual changes.
+  - Always-On is set to true for the backend app-service-container: This keeps the application pre-warmed, meaning that the load balancer is provisioned to be able to distribute resources as it anticipates a surge in traffic. This reduces latency for users.
   - Application insights monitoring: Integrated for all environments to monitor application performance metrics and identify bottlenecks, allowing for proactive optimization.
-  - ... to be continued
   - Conduct load testing for SLI 2: Page Load Time and SLI 3: Transaction Processing Time.
   - Optimize scalability of infrastructure to handle peak loads while maintaining performance thresholds.
 
